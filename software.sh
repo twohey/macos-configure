@@ -58,6 +58,7 @@ brew cask install imageoptim
 
 # docker tools
 # brew cask install docker
+brew install shellcheck
 
 # web dev
 brew install httpie
