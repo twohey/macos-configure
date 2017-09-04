@@ -67,3 +67,5 @@ brew install jmeter
 # java
 brew install maven
 
+# go
+brew install go
