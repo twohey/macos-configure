@@ -53,6 +53,9 @@ brew cask install sublime-text
 brew cask install textmate
 brew cask install visual-studio-code
 
+# image tools
+brew cask install imageoptim
+
 # docker tools
 # brew cask install docker
 
