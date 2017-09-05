@@ -5,6 +5,7 @@
 set -e
 set -x
 
+brew tap Homebrew/bundle
 brew tap caskroom/cask
 
 # requires password which is sad, thus make first
