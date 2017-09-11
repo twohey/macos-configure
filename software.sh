@@ -70,3 +70,6 @@ brew install maven
 
 # go
 brew install go
+
+# for signing things
+brew install gpg
