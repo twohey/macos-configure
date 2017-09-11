@@ -6,6 +6,7 @@ echo '==== Installing software and applications'
 ./software.sh
 
 echo '==== Configuring applications'
+./configure-atom.sh
 ./configure-eclipse.rb
 
 echo '==== Done ===='
