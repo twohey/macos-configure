@@ -10,6 +10,7 @@ brew tap caskroom/cask
 
 # requires password which is sad, thus make first
 brew cask install wireshark
+brew install mtr
 
 # macOS AppStore scripting
 brew install mas
