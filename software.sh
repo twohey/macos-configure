@@ -65,6 +65,7 @@ brew install shellcheck
 # web dev
 brew install httpie
 brew install jmeter
+brew install jq
 
 # java
 brew install maven
