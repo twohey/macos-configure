@@ -4,3 +4,5 @@
 set -e
 apm install atomic-emacs
 apm install editorconfig
+apm install atom-ide-ui
+apm install ide-typescript
