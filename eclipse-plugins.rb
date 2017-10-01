@@ -5,7 +5,7 @@ MARKETPLACE_PLUGINS = []
 MARKETPLACE_PLUGINS << { id: 2706327, human: 'Docker Tooling' }
 MARKETPLACE_PLUGINS << { id: 1216155, human: 'm2e apt' }
 MARKETPLACE_PLUGINS << { id: 264, human: 'ECL Emma' }
-MARKETPLACE_PLUGINS << { id: 1099, human: 'FindBugs' }
+MARKETPLACE_PLUGINS << { id: 3519199, human: 'SpotBugs' }
 MARKETPLACE_PLUGINS << { id: 150, human: 'CheckStyle' }
 
 # traditional plugins to install. 
