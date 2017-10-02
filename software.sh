@@ -12,6 +12,9 @@ brew tap caskroom/cask
 brew cask install wireshark
 brew install mtr
 
+# manage Java through brew - this also requires a password
+brew cask install java
+
 # macOS AppStore scripting
 brew install mas
 
