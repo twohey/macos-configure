@@ -78,3 +78,5 @@ brew install go
 
 # for signing things
 brew install gpg
+
+brew install rust
