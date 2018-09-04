@@ -69,6 +69,7 @@ brew install shellcheck
 brew install httpie
 brew install jmeter
 brew install jq
+brew install yarn
 
 # java
 brew install maven
