@@ -1,9 +1,16 @@
 #!/bin/bash
-# Copyright (C) 2017 Paul Twohey. All Rights reserved. See LICENSE file
+# Copyright (C) 2017-2019 Paul Twohey. All Rights reserved. See LICENSE file
 
 # script to install packages for a mac computer
+echo "must be logged into the App Store or this will not work"
+
 set -e
 set -x
+
+# check if brew exists and install if not
+if ! type "brew" > /dev/null; then
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
 
 brew tap Homebrew/bundle
 brew tap caskroom/cask
@@ -17,6 +24,9 @@ brew cask install java
 
 # macOS AppStore scripting
 brew install mas
+
+# ensure user is signed into the AppStore
+mas account
 
 # NB: users must have already authorized these applications or
 # they will not be able to be installed
