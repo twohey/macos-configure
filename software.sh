@@ -38,6 +38,7 @@ mas install 803453959  # Slack
 mas install 1142578753 # OmniGraffle 7
 mas install 604825918  # Valentina Studio
 mas install 418138339  # HTTP Client
+mas install 926036361  # LastPass
 
 # mac apps
 brew cask install firefox
