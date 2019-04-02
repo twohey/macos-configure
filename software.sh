@@ -46,8 +46,12 @@ brew cask install vlc
 brew cask install skype
 brew cask install zoom
 brew cask install kindle
+
 # developer mac apps
 mas install 497799835 # Xcode
+# ensure Xcode license is accepted
+sudo xcodebuild -license accept
+
 mas install 604825918 # Valentina Studio
 
 
