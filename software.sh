@@ -47,6 +47,7 @@ brew cask install vlc
 brew cask install skype
 brew cask install zoom
 brew cask install kindle
+brew cask install skyfonts
 
 # developer mac apps
 mas install 497799835 # Xcode
